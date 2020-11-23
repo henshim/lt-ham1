@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="bai3()">
+<script>
+    function bai3(num1, num2) {
+        num1 = +prompt('Nhập số đầu tiên:');
+        num2 = +prompt('Nhập số thứ 2:');
+        if (num1 > num2) {
+            alert('Số ' + num1 + ' lớn hơn số ' + num2);
+        } else {
+            let c = num1 + num2;
+            alert('Tổng hi số: '+c);
+            return c;
+        }
+    }
+</script>
+</body>
+</html>
